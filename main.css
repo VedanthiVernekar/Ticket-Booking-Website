@@ -1,0 +1,179 @@
+
+#div1{background-color: black;
+    height: 410px;}
+    #top{color: black;
+        margin-left: 48%;
+        font-size: 16px;
+        padding-top: 15px;
+        font-weight: 900;}
+    .name{
+        color: red;
+        position: absolute;
+        z-index: 2;
+        top: 18px;
+        left: 40px;
+        font-size: 20px;
+    }
+    body{background-color: black;}
+    .a1{padding: 25px 5px 5px 10px;
+        color: white;}
+    .a1:link{
+        padding: 25px 25px 10px 25px;
+        text-decoration: none;}
+    .a1:hover{background-color:white;
+        border-radius: 4px;
+        color: black;}
+    .a2{
+        position: absolute;
+        z-index: 2;
+        top: 15px;
+        right: 50px;
+        padding: 10px 20px 10px 20px;
+        color: black;
+        background-color: red;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .a2:hover{
+        color: white;
+    }
+    #thanos{width: 400px;
+        height: 310px;
+        margin: 8% 0% 3% 35%;
+        cursor: hand;}
+    #div2{width: 550px;
+        font-size: 55px;
+        color: #FFFFFF;
+        margin: 40px 35px;}
+    #search{margin-left: 35px;
+        width: 420px;
+        border-radius: 7px;
+        padding: 10px 30px ;
+        font-size: 15px;}
+    #div3{height: 410px;
+        background-color:#2c2c2c;}
+    .div4{font-size: 40px;
+        text-align: center;
+        margin-left: 23px;
+        color: white;
+        padding-top: 25px;}
+    #div5{height: 460px;
+        background-color:rgb(26, 26, 26)}
+    *{box-sizing: border-box;}
+    .column {float: left;
+        width: 33.2%;
+        padding: 40px 25px 10px 30px;
+    }
+    #div7{height: 300px;
+        background-color:#2c2c2c;}
+    #div8{font-size: 40px;
+        color: #FFE600;
+        padding-top: 25px;
+        text-align: center;
+    }
+    #div9{font-size: 25px;
+        color: rgb(224, 219, 219);
+        padding: 15px 0px 0px 23px;
+    }
+    .column2 {position: absolute;
+        z-index: 2;
+        top: 50px;
+        right: 180px;}
+    .view{color: white;
+        font-size: 15px;
+        position: absolute;
+        z-index: 2;
+        top: 500px;
+        right: 2%;
+        cursor: hand;}
+    .view1{color: white;
+        font-size: 15px;
+        position: absolute;
+        z-index: 2;
+        top: 910px;
+        right: 2%;
+        cursor: hand;}
+    .view:hover,.view1:hover{
+        color: rgb(107, 107, 252);
+    }
+    li{font-size: 20px;
+        padding: 5px 10px;
+        margin-left: 35px;
+        word-spacing: 2px;
+        letter-spacing: 1px;color: white;}
+    button{font-size: 25px;
+        background-color: #ffe604;
+        padding: 10px;
+        border-radius: 7px;
+        cursor: hand;margin-left: 35%; margin-top: 3%}
+    .column3{
+        position: absolute;
+        z-index: 2;
+        top: 1405px;
+        right: 200px;
+    }
+    footer{
+        background-color: rgba(155, 144, 144, 0.418);
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        padding: 5px;
+    }
+    #sub:hover{
+        color: rgb(25, 0, 255);
+    }
+    .box1,.box2,.box3{
+        position: absolute;
+        z-index: 2;
+        top: 700px;
+        width: 359px;
+        background-color: rgba(255, 255, 255, 0.829);
+        height: 80px;
+        border-radius: 3px 3px 0 0;
+        font-size: 23px;
+        padding: 10px 20 20 20;
+        display: none;
+    }
+    .director{
+        padding: 1px;
+        font-size: 15px;
+        float: right;
+    }
+    .mainchar{
+        font-size: 13px;
+        padding: 2px;
+    }
+    .mov1:hover,.mov2:hover,.mov3:hover{
+        opacity: 0.6;
+    }
+    .on1:hover,.on2:hover,.on3:hover{
+        opacity: 0.5;
+    }
+    .box4,.box5,.box6{
+        position: absolute;
+        z-index: 2;
+        top: 1050px;
+        display: none;
+    }
+    .crown{
+        width: 110px;
+        background-color: rgba(0, 255, 0, 0.692);
+        border-radius: 90px;
+    }
+    .box7,.box8,.box9{
+        position: absolute;
+        z-index: 2;
+        top: 1185px;
+        width: 359px;
+        background-color: rgba(255, 255, 255, 0.829);
+        height: 80px;
+        border-radius: 3px 3px 0 0;
+        font-size: 23px;
+        padding: 10px 20 20 20;
+        display: none;
+    }
+    .director1{
+        padding-top: 15px;
+        font-size: 15px;
+        float: right;
+    }

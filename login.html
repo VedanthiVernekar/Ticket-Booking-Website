@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+            }
+            #main{
+                background-color: #5D5858;
+                height: 92%;
+                width: 70%;
+                margin-top: 50px;
+                border-radius: 20px;
+                margin-left: 15%;
+            }
+             #div1{
+                    color: white;
+                    text-align: center;
+                    font-size: 40px;
+                    padding: 30px 10px 10px 18px;
+            }
+            #div2{
+                    width: 480px;
+                    border-radius: 7px;
+                    padding: 10px 10px 10px 10px ;
+                    font-size: 15px;
+                    margin: 4% 0% 1% 23%;
+            }
+            *{box-sizing:border-box;}
+            .column {float: left;
+                width: 18%;
+                padding: 25px 25px 0px 25px;
+                cursor: hand;
+                margin-left: 2%;
+            }
+            .button{
+                font-size: 20px;
+                background-color: #FFE609;
+                height: 40px;
+                width: 130px;
+                border-radius: 10px;
+                margin: 0 0 2% 43.5%;
+                cursor: hand;
+            }
+            #div3{
+                color: white;
+                margin-top: 15%;
+                margin-left: 44%;
+            }
+            #div4{
+                color: #4f8aff;
+                text-decoration: underline;
+                margin-top: 0.5%;
+                margin-left: 48%;
+                cursor: hand;
+            }
+            #div5{
+                margin-left: 29%;
+            }
+            hr{
+                width: 80%;
+            }
+            #div4:hover{
+                color: black;
+            }
+        </style>
+        <script src="main.js">
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="div1">Login</div>
+            <form name="myform" method="post" onsubmit="return login()" action="homepage.html">
+                <input type="text" name="email" id="div2" placeholder="Enter Email Id">
+                <input type="text" name="password" id="div2" placeholder="Enter Password"><br><br>
+                <a href="homepage.html"><input type="submit" class="button" value="Login"></a><br>
+            </form>
+            <hr>
+            <div id="div5">
+                <div class="column">
+                    <img src="google.png" style="width:100%">
+                </div>
+                <div class="column">
+                      <img src="fb.png" style="width:100%">
+                </div>
+                <div class="column">
+                   <img src="tweet.png" style="width:100%">
+                </div>
+            </div>
+            <div id="div3">Already Logged In?</div>
+            <a href="signup.html"><div id="div4">Sign Up</div></a>
+        </div>
+    </body>
+</html>

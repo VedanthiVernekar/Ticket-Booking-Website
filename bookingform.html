@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <script src="main.js"></script>
+        <style>
+            body{
+                background-color: black;
+            }
+            #main{
+                background-color: red;
+                height: 115%;
+                width: 70%;
+                margin-top: 50px;
+                border-radius: 20px;
+                margin-left: 15%;
+            }
+            #div1{
+                font-size: 40px;
+                padding: 30px 0px 10px 0px;
+                text-align: center;
+            }
+            #div2{
+                width: 330px;
+                border-radius: 10px;
+                padding: 10px 10px 10px 10px ;
+                font-size: 15px;
+                margin: 0% 0% 3% 8%;
+            }
+            .button{
+                font-size: 20px;
+                background-color: #0974ff;
+                height: 50px;
+                width: 190px;
+                border-radius: 15px;
+                position: absolute;
+                z-index: 2;
+                top: 105%;
+                left: 42%;
+                cursor: hand;
+            }
+            .button:hover{
+                color: white;
+            }
+            .float{
+                position: absolute;
+                z-index: 2;
+                top: 635px;
+                left: 380px;color: white;
+                display: none;
+            }
+            .one{
+                font-size: 20px;
+                padding-left: 75px;
+            }
+            .two{
+                font-size: 20px;
+                padding-left: 75px;
+                position: absolute;
+                z-index: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="div1">Movie: Sooryavanshi</div><br>
+            <form name="myform" method="post" onsubmit="return validateform()" action="upi.html">
+            <label class="one">Enter Full Name :</label><br>
+            <input id="div2" type="text" placeholder="Enter Full Name" name="name">
+            <label class="two" style="top: 153px;">Enter Email Id :</label>
+            <input id="div2" type="text" placeholder="Enter Email Id" name="email"><br>
+            <label class="one">Enter Phone Number :</label><br>
+            <input id="div2" type="number" placeholder="Enter Phone Number"name="phnno">
+            <label class="two" style="top: 243px;">Enter Phone Number 2 :</label>
+            <input id="div2" type="number" placeholder="Enter Phone Number"><br>
+            <label class="one">Enter Number of Seats :</label><br>
+            <input id="div2" type="number" placeholder="Enter Number Of Seats"name="noseats">
+            <label class="two" style="top: 333px;">Select Date :</label>
+            <input id="div2" type="date" placeholder="Select Date"name="date"><br>
+            <label class="one">Select Time :</label><br>
+            <select id="div2" name="time">
+                <option value="11:00am">11:00am</option>
+                <option value="1:00pm">1:00pm</option>
+                <option value="5:30pm">5:30pm</option>
+                <option value="8:00pm">8:00pm</option>
+            </select>
+            <label class="two" style="top: 430px;">Select Location :</label>
+            <select id="div2" name="location">
+                <option value="Cental Cinema, Mumbai">Central Cinema, Mumbai</option>
+                <option value="Cinema House, Thane">Cinema House, Thane</option>
+                <option value="INOX, Mumbai">INOX, Mumbai</option>
+            </select>
+            <label class="one">Select Language :</label><br>
+            <select id="div2" name="lang">
+                <option value="Hindi">Hindi</option>
+                <option value="English">Englsih</option>
+                <option value="Tamil">Tamil</option>
+            </select>
+            <label class="two" style="top: 519px;">Select Your Seat :</label>
+            <select id="div2" name="seat">
+                <option value="Top Row">Top Row</option>
+                <option value="Middle Row">Middle Row</option>
+                <option value="Bottom Row">Bottom Row</option>
+            </select>
+            <br><br>
+            <input type="submit" class="button" value="Proceed To Pay">
+            </form>
+        </div>
+    </body>
+</html>

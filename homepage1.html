@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#search").keypress(function(){
+                    $("#searchbutton").fadeIn();
+                })
+                $("#thanos").click(function(){
+                    $("#div3,#div5,#div7,footer,#div2,#search").fadeToggle();
+                })
+                $(".mov1").mouseenter(function(){
+                    $(".box1").show();
+                })
+                $(".mov1").mouseleave(function(){
+                     $(".box1").hide();
+                })
+                $(".mov2").mouseenter(function(){
+                    $(".box2").show();
+                })
+                $(".mov2").mouseleave(function(){
+                     $(".box2").hide();
+                })
+                $(".mov3").mouseenter(function(){
+                    $(".box3").show();
+                })
+                $(".mov3").mouseleave(function(){
+                     $(".box3").hide();
+                })
+                $(".on1").mouseenter(function(){
+                    $(".box7").show();
+                })
+                $(".on1").mouseleave(function(){
+                     $(".box7").hide();
+                })
+                $(".on2").mouseenter(function(){
+                    $(".box8").show();
+                })
+                $(".on2").mouseleave(function(){
+                     $(".box8").hide();
+                })
+                $(".on3").mouseenter(function(){
+                    $(".box9").show();
+                })
+                $(".on3").mouseleave(function(){
+                     $(".box9").hide();
+                })
+            })
+        </script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="div1">
+            <div class="name">booking.com</div>
+            <div id="top">
+                <a class="a1" href="subscription.html" >Subscription</a>
+                <a class="a1" href="#booking">Booking</a>
+                <a class="a1" href="#aboutus">About Us</a>
+                <a class="a1" href="#contact">Contact</a>
+                <a class="a2" href="login.html">Login</a>
+            </div>
+            <div>
+                <div>
+                    <div id="div2">Dive Into The World Of Movies With Us!</div> 
+                    <input type="text" placeholder="Search for a movie/ show here..." id="search">
+                    <a href="booking1.html"><input id="searchbutton" type="button" value="Search" style="border-radius: 5px;padding: 2px;height: 10%;width: 10%;cursor: hand;display: none;background-color: rgb(4, 253, 66);"></a>
+                </div>
+                <div  class="column2">
+                    <img src="t1.webp" id="thanos">
+                </div>
+            </div>
+        </div>
+        <div id="div3">
+            <div class="div4">
+                Book Your Favourite Movie Or Show
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a href="booking1.html"><img src="mov1.jpg" class="mov1" style="width:100%;border: 4px black solid;cursor: hand;height: 250px;"></a>
+                </div>
+                <div class="column">
+                      <img src="mov2.jpg" class="mov2" style="width:100%;border: 4px black solid;cursor: hand;height: 250px;">
+                      
+                </div>
+                <div class="column">
+                   <img src="mov3.jpg" class="mov3" style="width:100%;border: 4px black solid;cursor: hand;height: 250px;">
+                  
+                </div>
+           </div>
+           <div class="view">View All...</div>
+        </div>   
+        <div id="div5">
+            <div class="div4">
+                Now Streaming- Watch Online
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="on1.jpg" class="on1" style="width:100%;border: 4px black solid;cursor: hand;">
+                
+                </div>
+                <div class="column">
+                      <img src="on2.jpg" class="on2" style="width:100%;border: 4px black solid;cursor: hand;">
+                      
+                </div>
+                <div class="column">
+                    <img src="on3.jpg" class="on3" style="width:100%;border: 4px black solid;cursor: hand;">
+                   
+                </div>
+           </div>
+           <div class="view1">View All...</div>
+        </div>
+        <div id="div7">
+            <div id="div8">
+                Get Your Premium Subscription Now!
+            </div>
+            <div id="div9">
+                What Will You Get?
+            </div>
+            <div>
+                <ul class="column1"> 
+                    <li>Watch latest movies online</li>
+                    <li>Watch lastest web series online</li>
+                    <li>Download movies for free</li>
+                    <li>All this at just Rs.400 per month!</li>
+                </ul>
+                <button class="column3" onclick="alert('You have already subscribed :)')"><div id="sub"> Subscribe Now</div></button>
+            </div>
+        </div>
+        <footer id="footer">Copyright 2021- Vedanthi Vernekar</footer>
+        <a style="color: black;" href="booking.html"><div class="box1" style="left: 38.5px;">Sooryavanshi <br><div class="mainchar">Akshay Kumar, Ranveer Singh, Ajay Devgn</div> <div class="director">~Rohit Shetty</div></div></a>
+        <div class="box2" style="left: 452.5px;">TED Talks<br><div class="director">~Shawn Achor</div></div>
+        <div class="box3" style="left: 866.5px;">Satyameva Jayate 2 <br><div class="mainchar">John Abraham, Nora Fatehi, Manoj Bajpayee</div><div class="director">~Milap Zaveri</div></div>
+        <div class="box7" style="left: 38.5px;">Squid Game 2022<br><div class="director1">Available in Hindi, Korean and English</div></div>
+        <div class="box8" style="left: 452.5px;">Money Heist<br><div class="director1">Available in Hindi, Spanish and English</div></div>
+        <div class="box9" style="left: 866.5px;">Pataal Lok<br><div class="director1">Available in Hindi and English</div></div>
+    </body>
+</html>

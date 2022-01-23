@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+            }
+            #main{
+                background-color: #5D5858;
+                height: 75%;
+                width: 70%;
+                margin-top: 50px;
+                border-radius: 20px;
+                margin-left: 15%;
+            }
+             #div1{
+                    color: white;
+                    text-align: center;
+                    font-size: 40px;
+                    padding: 30px 10px 10px 18px;
+            }
+            #div2{
+                    width: 480px;
+                    border-radius: 7px;
+                    padding: 10px 10px 10px 10px ;
+                    font-size: 15px;
+                    margin: 4% 0% 1% 23%;
+            }
+            *{box-sizing:border-box;}
+            .column {float: left;
+                width: 18%;
+                padding: 25px 25px 0px 25px;
+                cursor: hand;
+                margin-left: 2%;
+            }
+            .button{
+                font-size: 20px;
+                background-color: #0990ff;
+                height: 40px;
+                width: 130px;
+                border-radius: 10px;
+                margin: 0 0 2% 43.5%;
+                cursor: hand;
+            }
+            #div3{
+                color: white;
+                margin-top: 15%;
+                margin-left: 44%;
+            }
+            #div4{
+                color: #73a1fd;
+                text-decoration: underline;
+                margin-top: 0.5%;
+                margin-left: 48%;
+                cursor: hand;
+            }
+            #div5{
+                margin-left: 29%;
+            }
+            hr{
+                width: 80%;
+            }
+            .button:hover{
+                color: white;
+            }
+        </style>
+        <script src="main.js">
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="div1">Sign Up</div>
+            <form name="myform" method="post" onsubmit="return signup()" action="homepage.html">
+                <input type="text" name="name" id="div2" placeholder="Enter Name">
+                <input type="text" name="email" id="div2" placeholder="Enter Email Id">
+                <input type="text" name="password" id="div2" placeholder="Enter Password"><br><br>
+                <a href="homepage.html"><input type="submit" class="button" value="Sign Up"></a><br>
+            </form>
+        </div>
+    </body>
+</html>

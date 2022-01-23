@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#div3").keypress(function(){
+                    $("#searchbutton").fadeIn();
+                })
+                $(".float").click(function(){
+                    $("#div3").slideDown();
+                })
+            })
+        </script>
+        <style>
+            body{
+                background-color: black;
+            }
+            #main{
+                background-color: red;
+                height: 55%;
+                width: 70%;
+                margin-top: 50px;
+                border-radius: 20px;
+                margin-left: 15%;
+            }
+            #div1{
+                font-size: 40px;
+                padding: 30px 0px 10px 18px;
+            }
+            #div2{
+                width: 680px;
+                border-radius: 15px;
+                padding: 10px 10px 10px 10px ;
+                font-size: 15px;
+                margin: 2% 0% 1% 10%;
+            }
+            #div3{
+                width: 200px;
+                border-radius: 15px;
+                padding: 10px 10px 10px 10px ;
+                font-size: 15px;
+                margin: 0% 0% 1% 38.5%;
+                display: none;
+            }
+            .float{
+                font-size: 18px;
+                background-color: #05FF00;
+                height: 50px;
+                width: 120px;
+                border-radius: 15px;
+                margin: 0 0% 3% 43%;
+                cursor: hand;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="div1">UPI</div>
+            <input id="div2" type="text" placeholder="Enter UPI ID"><br><br>
+            <a href="#"><input type="submit" class="float" value="Get OTP" ></a><br>
+            <input id="div3" type="number" placeholder="Enter OTP" name="otp">
+            <a href="upi2.html"><input type="submit" id="searchbutton" style="cursor: hand ;display: none;background-color: rgb(8, 132, 248);padding: 10px;border-radius: 5px;"></a><br><br>
+        </div>
+    </body>
+</html>
