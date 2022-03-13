@@ -2,6 +2,7 @@
 Web development project using HTML, CSS, JavaScript and JQuery
 
 Please Note:
+*This is not a dynamic website
 1) Booking page opens only when you click on movie- Sooryavanshi or search for the same in search bar.
 2) About Us page and Contact Us page are not available.
 3) For payment option, only UPI option is valid.
